@@ -1,5 +1,35 @@
-.idea/
+# Python
 __pycache__/
-last_commit.py
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
 venv/
+env/
+
+# Editors and operating system files
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local credentials and generated helper state
 token.json
+last_commit.py
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*~
